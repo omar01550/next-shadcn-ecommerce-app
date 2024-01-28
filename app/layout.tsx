@@ -1,25 +1,26 @@
-'use client'
-import React, { useState } from 'react'
-import Footer from './components/footer'
-import './globals.css'
-import Header from './components/header'
-export const CartContext = React.createContext(null)
 
+import React, { ReactNode, useState } from 'react'
+import { Provider } from './context'
 
-const Layout = ({children}:{children:React.ReactNode}) => {
-const [cart,setCart] = useState([])
+export const metadata ={
+     title:"Omar",
+     description:"hamada"
+}
+
+const Layout = ({children}:{children:ReactNode}) => {
 
   return (
-    <html dir='rtl'>
-         <body>
-          <CartContext.Provider value={[cart,setCart]}>
-          <Header/>
-             {
-                 children
-             }
-             <Footer/>
-          </CartContext.Provider>
-         </body>
+    <html>
+
+
+            <body>
+
+                <Provider payload={{cart:10,setCart:20}}>
+                     {children}
+                </Provider>
+
+            </body>
+         
     </html>
   )
 }
