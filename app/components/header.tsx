@@ -12,11 +12,11 @@ const Header = () => {
          <ContainerWrapper className='py-4 flex justify-between items-center w-full'>
                 <Link href={"/"} className='flex justify-start items-center font-bold capitalize'>
                     <Image 
-                    className="w-12  h-12 rounded-full"
+                    className="w-10 h-10 md:w-12  md:h-12 rounded-full"
                     src={LogoImage}
                     alt=""
                     />
-                    <h3 className='text-blue-900 capitalize text-4xl px-2'>
+                    <h3 className='text-blue-900 capitalize text-3xl md:text-4xl px-2'>
                         iforward
                     </h3>
                 </Link>

@@ -6,14 +6,14 @@ const Hero = () => {
   return (
     <section className="">
          <ContainerWrapper className='w-full flex justify-center items-center min-h-96'>
-                <div className="content w-10/12 md:w-8/12 lg:w-6/12 text-center">
-                    <h1 className='text-4xl lg:text-4xl font-bold vcapitalize'>
+                <div className="content w-11/12 md:w-8/12 lg:w-6/12 text-center pt-8 md:pt-0">
+                    <h1 className='text-3xl lg:text-4xl font-bold vcapitalize'>
                     At Iforward, we turn your ideas into reality
 
 
 
                     </h1>
-                    <p className="mt-8 text-gray-700">
+                    <p className="mt-8 text-gray-700 capitalize">
                             We are your guide in the journey of digital transformation, a world of creativity in the field of software, web design, online stores, mobile applications, accounting and management systems.
 
                     </p>
