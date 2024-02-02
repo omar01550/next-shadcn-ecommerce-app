@@ -23,6 +23,7 @@ const Project = ({link,image}) => {
              <Image
               src={image}
               className='w-full h-[470px] md:h-[600px]'
+              alt='not found image'
              />
              </div> 
              )
