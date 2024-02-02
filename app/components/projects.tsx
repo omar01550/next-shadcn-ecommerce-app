@@ -4,7 +4,7 @@ import ContainerWrapper from './containerWrapper'
 import Image from 'next/image';
 import abdaldayem from '../../public/images/projects/abdeldayem.png'
 import ProjectTwo from '../../public/images/projects/ui-ux-1.jpg';
-import project3 from '../../public/images/projects/rehab-2.png'
+import project3 from "../../public/images/projects/rehab-2.png"
 import Project from './project';
 
 const z:number=10;
