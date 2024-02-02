@@ -7,7 +7,7 @@ import ProjectTwo from '../../public/images/projects/ui-ux-1.jpg';
 import project3 from '../../public/images/projects/rehab-2.png'
 import Project from './project';
 
-
+const z:number=10;
 
 const projects = [
      {
