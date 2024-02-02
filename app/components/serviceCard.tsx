@@ -8,7 +8,7 @@ interface IServiceCard {
 
 const ServiceCard = ({title,icon,description}:IServiceCard) => {
   return (
-    <div className="service-card w-full md:w-[300px] h-[250px] bg-gray-100 p-4 mt-10 hover:bg-blue-900 hover:text-white">
+    <div className="service-card w-full md:w-[300px] h-[150px] bg-gray-100 p-4 mt-10 hover:bg-blue-900 hover:text-white">
          <div className="icon-container w-14 h-14 bg-blue-900 flex justify-center items-center rounded-full">
          <AlignVerticalDistributeEnd className='text-white'/>
          </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Hero from './components/hero'
 import ContainerWrapper from './components/containerWrapper'
 import ServiceCard from './components/serviceCard'
@@ -11,6 +11,7 @@ import Services from './components/services'
 import Projects from './components/projects'
 import Jspage from '../public/images/techs/js.webp'
 import Technologies from './components/technologies'
+import SectionLoader from './components/sectionLoader'
 export const metadata = {
    title:"Iforward",
    description:"Iforward is a software company that helps you to get your degital solution At Iforward, we turn your ideas into reality We Are Your Guide In The Journey Of Digital Transformation, A World Of Creativity In The Field Of Software, Web Design, Online Stores, Mobile Applications, Accounting And Management Systems"
@@ -23,19 +24,32 @@ const HomePage = () => {
   return (
     <main className="w-full full">
        <Hero/>
-       <Services/>
+       <Suspense fallback={<SectionLoader/>}>
+           <Services/>
+       </Suspense>
 
        {/* start our works */}
-       
-<Projects/>
+       <Suspense fallback={<SectionLoader/>}>
+
+       <Projects/>
+       </Suspense>
+
 
        {/* end our works */}
 
 
        {/* techs */}
-      <Technologies/>
+       <Suspense fallback={<SectionLoader/>}>
+
+              <Technologies/>
+           </Suspense>
+
+      
        {/* end of techs */}
-       <About/>
+       <Suspense fallback={<SectionLoader/>}>
+           <About/>
+       </Suspense>
+       
 
     </main>
   )
