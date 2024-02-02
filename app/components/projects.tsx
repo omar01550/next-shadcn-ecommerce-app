@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import ContainerWrapper from './containerWrapper'
 import Image from 'next/image';
-import ProjectOne from '../../public/images/project-1.png'
+import abdaldayem from '../../public/images/projects/abdeldayem.png'
 import ProjectTwo from '../../public/images/projects/ui-ux-1.jpg';
 import project3 from '../../public/images/projects/rehab-2.png'
 import Project from './project';
@@ -11,15 +11,16 @@ import Project from './project';
 
 const projects = [
      {
-         link:"",
-         image:ProjectOne
+         link:"https://abdaldayem.com/",
+         image:abdaldayem
+
      },
      {
          link:"",
          image:ProjectTwo
      },
      {
-        link:"",
+        link:"https://nadaaliatf.github.io/EL-REHAB-JV/",
         image:project3
     },
     
@@ -43,7 +44,7 @@ const Projects = () => {
          projects.map((project) => {
             return (
              <CarouselItem className=' md:basis-1/2 relative'>
-                    <Project link={"ss"} image={project.image}/>
+                    <Project link={project.link} image={project.image}/>
              </CarouselItem>
    
             )
