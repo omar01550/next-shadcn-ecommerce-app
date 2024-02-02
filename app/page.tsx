@@ -19,11 +19,12 @@ const HomePage = () => {
         </h2>
 <section className="cards flex justify-between items-center w-full font-bold mt-10 flex-wrap md:space-x-2 pb-20">
    
-                <ServiceCard/>
-                <ServiceCard/>
-                <ServiceCard/>
-                <ServiceCard/>
-                <ServiceCard/>
+                <ServiceCard title='web development' description=''/>
+                <ServiceCard title='mobile development' description=''/>
+                <ServiceCard title='ui ux design' description=''/>
+                <ServiceCard title='web hosting' description=''/>
+                
+                
 </section>
        </ContainerWrapper>
 
