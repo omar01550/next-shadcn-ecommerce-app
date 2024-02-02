@@ -1,26 +1,19 @@
+import React from 'react'
+import './globals.css'
+import Header from './components/header'
+import Footer from './components/footer'
 
-import React, { ReactNode, useState } from 'react'
-import { Provider } from './context'
-
-export const metadata ={
-     title:"Omar",
-     description:"hamada"
-}
-
-const Layout = ({children}:{children:ReactNode}) => {
-
+const Layout = ({ children}) => {
   return (
     <html>
+       <body className=''>
+       
+   <Header/>       
+        { children}
+<Footer/>
+        
 
-
-            <body>
-
-                <Provider payload={{cart:10,setCart:20}}>
-                     {children}
-                </Provider>
-
-            </body>
-         
+       </body>
     </html>
   )
 }
