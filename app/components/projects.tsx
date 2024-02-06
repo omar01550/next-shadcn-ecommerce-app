@@ -31,9 +31,9 @@ const projects = [
 const Projects = () => {
   return (
     <section className="our-works">
-    <ContainerWrapper className='w-full bg-gray-200 py-10'>
+    <ContainerWrapper className='w-full bg-gray-200 py-20 dark:bg-black dark:text-white '>
 
-    <h2 className="text-center text-blue-900 text-4xl capitalize font-semibold mt-4" id="our-works">
+    <h2 className="text-center text-primary dark:text-white text-4xl capitalize font-semibold mt-4" id="our-works">
             Our Works
      </h2>       
 
@@ -43,7 +43,7 @@ const Projects = () => {
        {
          projects.map((project) => {
             return (
-             <CarouselItem className=' md:basis-1/2 relative'>
+             <CarouselItem className=' md:basis-1/3 relative'>
                     <Project link={project.link} image={project.image}/>
              </CarouselItem>
    

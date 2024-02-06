@@ -14,7 +14,7 @@ const Project = ({link,image}) => {
                 
                  {
                     link&&(<Link href={link} target='blanck'>
-                    <Button className='px-10 oy-2 rounded-md bg-blue-900'>
+                    <Button className='px-10 oy-2 rounded-md bg-primary'>
                         Go
                     </Button>
              </Link>)
@@ -22,8 +22,9 @@ const Project = ({link,image}) => {
             </div>
              <Image
               src={image}
-              className='w-full h-[470px] md:h-[600px]'
-              alt='not found image'
+              className='w-full h-[470px] md:h-[450px]'
+              alt='not found imagecls
+              '
              />
              </div> 
              )

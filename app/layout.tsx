@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './globals.css'
 import Header from './components/header'
 import Footer from './components/footer'
+import { ThemeWrapper } from './context/theme'
 
 const Layout = ({ children}) => {
+
+
   return (
     <html>
-       <body className=''>
        
-   <Header/>       
-        { children}
-<Footer/>
+       
+   <ThemeWrapper>
+        <Header/>       
+              { children}
+      <Footer/>
         
 
-       </body>
+       
+   </ThemeWrapper>
     </html>
   )
 }

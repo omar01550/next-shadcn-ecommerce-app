@@ -29,12 +29,12 @@ const skills =[
 
 const Technologies = () => {
   return (
-    <ContainerWrapper className='py-14'>
-    <h2 className="text-center text-blue-900 text-4xl capitalize font-semibold" id="our-works">
+    <ContainerWrapper className='dark:bg-black text-white py-20'>
+    <h2 className="text-center text-primary dark:text-white text-4xl capitalize font-semibold" id="our-works">
     Technologies are we use
     </h2>
 
-    <div className="tech w-full my-8 flex justify-around items-center p-5 flex-wrap bg-gray-200 ">
+    <div className="tech w-full my-16 flex justify-around items-center p-5 flex-wrap bg-gray-200 ">
        {
          skills
          .map((skill) => {

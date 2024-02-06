@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/button'
 const About = () => {
   return (
 <section>
-<ContainerWrapper className='py-14'>
-            <h2 className="text-center text-blue-900 text-4xl capitalize font-semibold" id="our-works">
+<ContainerWrapper className='py-14 dark:bg-black dark:text-white'>
+            <h2 className="text-center text-primary dark:text-white dark:bg-black text-4xl capitalize font-semibold" id="our-works">
               About IForward
             </h2>
 
@@ -25,11 +25,11 @@ const About = () => {
 
 
             <div className="about-content w-full lg:w-6/12 p-5">
-                 <h2 className='text-3xl  font-bold capitalize text-blue-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laudantium l</h2>
-                 <p className="text-gray-700 mt-5 text-2xl">
+                 <h2 className='text-3xl  font-bold capitalize text-primary dark:bg-black dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laudantium l</h2>
+                 <p className="text-gray-700 mt-5 text-lg dark:bg-black dark:text-gray-300">
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem dolor accusantium qui deserunt temporibus. Soluta, minima vitae doloribus ipsa dolore dolorum sint deserunt dolorem rerum dolor voluptate id nihil distinctio!
                  </p>
-                 <Button className='text-2xl rounded-full capitalize bg-blue-900 text-white mt-8 hover:bg-blue-800 px-8 py-6'>
+                 <Button className='text-2xl rounded-full capitalize bg-primary text-white mt-8 hover:bg-primary px-8 py-6 '>
                          contact us
                     </Button>
                     
