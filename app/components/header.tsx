@@ -7,6 +7,7 @@ import ContainerWrapper from './containerWrapper';
 import NavigationMenuDemo from './navmenu';
 import { Menu } from 'lucide-react';
 import ThemeToggler from './toggler';
+import SideBar from './SideBar';
 
 const Header = () => {
   return (
@@ -27,7 +28,7 @@ const Header = () => {
                 {/* <NavigationMenuDemo/> */}
                 <div className="flex justify-center items-center space-x-4">
                   <ThemeToggler/>
-                <Menu className=' cursor-pointer' />
+                <SideBar/>
                 </div>
                 {/* end nav links */}
 

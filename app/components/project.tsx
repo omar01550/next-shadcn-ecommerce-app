@@ -10,7 +10,7 @@ const Project = ({link,image}) => {
 
 
           <div className="project relative">
-            <div className="project-overlay absolute w-full h-full bg-black opacity-70 flex justify-center items-center left-0 -bottom-full">
+            <div className="project-overlay absolute w-full md:w-[450px] h-full bg-black opacity-70 flex justify-center items-center left-0 -bottom-full">
                 
                  {
                     link&&(<Link href={link} target='blanck'>
@@ -22,7 +22,7 @@ const Project = ({link,image}) => {
             </div>
              <Image
               src={image}
-              className='w-full h-[470px] md:h-[450px]'
+              className='w-full md:w-[450px] h-[450px] md:h-[450px]'
               alt='not found imagecls
               '
              />

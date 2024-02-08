@@ -15,9 +15,6 @@ import SectionLoader from './components/sectionLoader'
 export const metadata = {
    title:"Iforward",
    description:"Iforward is a software company that helps you to get your degital solution At Iforward, we turn your ideas into reality We Are Your Guide In The Journey Of Digital Transformation, A World Of Creativity In The Field Of Software, Web Design, Online Stores, Mobile Applications, Accounting And Management Systems"
-
-
-
 }
 
 const HomePage = () => {

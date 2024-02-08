@@ -10,7 +10,7 @@ const {Provider} = themeContext;
 
 
 export const ThemeWrapper = ({children}:{children:React.ReactNode}) => {
-    const [theme,setTheme] = useState('light');
+    const [theme,setTheme] = useState('dark');
     return(
          <Provider value={
             {
@@ -18,7 +18,7 @@ export const ThemeWrapper = ({children}:{children:React.ReactNode}) => {
                  setTheme
             }
          }>
-             <body className={cn(theme,'transition')}>
+             <body className={cn(theme,'transition',theme == 'dark'?"bg-black":"bg-white","overflow-x-hidden")}>
                  {children}
              </body>
          </Provider>

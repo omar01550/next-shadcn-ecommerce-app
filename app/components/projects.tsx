@@ -6,6 +6,7 @@ import abdaldayem from '../../public/images/projects/abdeldayem.jpg'
 import ProjectTwo from '../../public/images/projects/ui-ux-1.jpg';
 import project3 from "../../public/images/projects/rehab-2.jpg"
 import Project from './project';
+import ServiceAnimation from './services.animation';
 
 const z:number=10;
 
@@ -28,10 +29,13 @@ const projects = [
 ]
 
 
-const Projects = () => {
+const Projects = async () => {
   return (
-    <section className="our-works">
-    <ContainerWrapper className='w-full bg-gray-200 py-20 dark:bg-black dark:text-white '>
+
+    <ServiceAnimation>
+
+<section className="our-works">
+    <ContainerWrapper className='w-full bg-gray-100 py-20 dark:bg-black dark:text-white '>
 
     <h2 className="text-center text-primary dark:text-white text-4xl capitalize font-semibold mt-4" id="our-works">
             Our Works
@@ -58,7 +62,9 @@ const Projects = () => {
        
      </Carousel>
     </ContainerWrapper>
-</section>
+    </section>
+    </ServiceAnimation>
+
   )
 }
 

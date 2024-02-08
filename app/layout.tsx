@@ -3,6 +3,7 @@ import './globals.css'
 import Header from './components/header'
 import Footer from './components/footer'
 import { ThemeWrapper } from './context/theme'
+import SideBar from './components/SideBar'
 
 const Layout = ({ children}) => {
 
@@ -12,7 +13,9 @@ const Layout = ({ children}) => {
        
        
    <ThemeWrapper>
-        <Header/>       
+        <Header/> 
+        
+
               { children}
       <Footer/>
         

@@ -3,9 +3,11 @@ import ContainerWrapper from './containerWrapper'
 import Image from 'next/image'
 import LogoImage from '../../public/images/large.png'
 import { Button } from '@/components/ui/button'
+import ServiceAnimation from './services.animation'
 
 const About = () => {
   return (
+<ServiceAnimation>
 <section>
 <ContainerWrapper className='py-14 dark:bg-black dark:text-white'>
             <h2 className="text-center text-primary dark:text-white dark:bg-black text-4xl capitalize font-semibold" id="our-works">
@@ -39,6 +41,7 @@ const About = () => {
 
        </ContainerWrapper>
 </section>
+</ServiceAnimation>
   )
 }
 

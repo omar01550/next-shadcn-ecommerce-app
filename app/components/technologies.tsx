@@ -15,6 +15,7 @@ import nextjs from '../../public/images/techs/next.png'
 import csharp from '../../public/images/techs/csharp.png'
 import ts from '../../public/images/techs/ts.png'
 import css from '../../public/images/techs/css.webp'
+import ServiceAnimation from './services.animation'
 
 
 
@@ -27,9 +28,10 @@ const skills =[
 ]
 
 
-const Technologies = () => {
+const Technologies = async () => {
   return (
-    <ContainerWrapper className='dark:bg-black text-white py-20'>
+    <ServiceAnimation>
+         <ContainerWrapper className='dark:bg-black text-white py-20'>
     <h2 className="text-center text-primary dark:text-white text-4xl capitalize font-semibold" id="our-works">
     Technologies are we use
     </h2>
@@ -51,6 +53,7 @@ const Technologies = () => {
        }
     </div>
 </ContainerWrapper>
+    </ServiceAnimation>
   )
 }
 
