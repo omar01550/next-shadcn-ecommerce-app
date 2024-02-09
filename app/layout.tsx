@@ -3,7 +3,7 @@ import './globals.css'
 import Header from './components/header'
 import Footer from './components/footer'
 import { ThemeWrapper } from './context/theme'
-import SideBar from './components/SideBar'
+// import SideBar from './components/SideBar'
 import ScrollToTop from './components/scrollToTop'
 
 const Layout = ({ children}) => {
@@ -15,7 +15,7 @@ const Layout = ({ children}) => {
        
    <ThemeWrapper>
         <Header/> 
-        <ScrollToTop/>
+        {/* <ScrollToTop/> */}
 
               { children}
       <Footer/>
