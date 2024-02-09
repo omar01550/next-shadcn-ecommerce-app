@@ -2,9 +2,11 @@ import React from 'react'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import ContainerWrapper from './containerWrapper'
 import Image from 'next/image';
-import abdaldayem from '../../public/images/projects/abdeldayem.jpg'
-import ProjectTwo from '../../public/images/projects/ui-ux-1.jpg';
-import project3 from "../../public/images/projects/rehab-2.jpg"
+import abdaldayem from '../../public/images/projects/4.png'
+import ProjectTwo from '../../public/images/projects/5.png';
+import project3 from "../../public/images/projects/6.png"
+import Project7 from "../../public/images/projects/7.png"
+import Project8 from "../../public/images/projects/8.webp"
 import Project from './project';
 import ServiceAnimation from './services.animation';
 
@@ -24,6 +26,14 @@ const projects = [
         link:"https://nadaaliatf.github.io/EL-REHAB-JV/",
         image:project3
     },
+    {
+      link:"https://nadaaliatf.github.io/EL-REHAB-JV/",
+      image:Project7
+  },
+  {
+    link:"https://nadaaliatf.github.io/EL-REHAB-JV/",
+    image:Project8
+},
     
 
 ]

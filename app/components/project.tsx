@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import './project.css'
 
+
 const Project = ({link,image}) => {
   return (
 

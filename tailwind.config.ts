@@ -1,4 +1,6 @@
+
 import type { Config } from "tailwindcss"
+
 
 const config = {
   darkMode: ["class"],
@@ -10,6 +12,7 @@ const config = {
 	],
   prefix: "",
   theme: {
+    
     container: {
       center: true,
       padding: "2rem",
@@ -19,16 +22,20 @@ const config = {
     },
     extend: {
       colors: {
-        primary:"#333",
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#3664f4",
+          
+
           foreground: "hsl(var(--primary-foreground))",
         },
+        black:"#020202",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

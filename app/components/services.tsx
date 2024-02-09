@@ -4,10 +4,17 @@ import ContainerWrapper from './containerWrapper'
 import { Figma, ScreenShare, Smartphone } from 'lucide-react'
 import { AlignVerticalDistributeEnd } from 'lucide-react'
 import ServiceAnimation from './services.animation'
+import HeroBg from '../../public/images/bg.png'
+import Image from 'next/image'
 
 const Services = async () => {
   return (
-    <ServiceAnimation>
+    <section className="services relative">
+      
+      
+        <ServiceAnimation>
+            
+
             <ContainerWrapper className='services  w-full pt-20 md:pt-14 dark:bg-black text-white'>
 
 <h2 className="text-center text-blue-700 dark:text-white text-4xl capitalize font-semibold" id="our-works">
@@ -24,6 +31,7 @@ const Services = async () => {
 </section>
 </ContainerWrapper>
     </ServiceAnimation>
+    </section>
   )
 }
 
