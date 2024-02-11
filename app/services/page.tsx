@@ -5,6 +5,7 @@ import { IService } from './components/ServiceSection'
 import ServiceImage from '../../public/images/service-2.png'
 import image2 from '../../public/images/service.png'
 import ContainerWrapper from '../components/containerWrapper'
+import ServiceSectionAnimation from './components/serviceSectionAnimation'
 
 const ServicesPage = () => {
 
@@ -43,9 +44,9 @@ const ServicesPage = () => {
               {
                  Services.map((service:IService) => {
                     return (
-                        <ServiceAnimation>
+                        <ServiceSectionAnimation>
                              <ServiceSection title={service.title} description={service.description} dir={service.dir} image={service.image}/>
-                        </ServiceAnimation>
+                        </ServiceSectionAnimation>
                     )
                  })
               }
