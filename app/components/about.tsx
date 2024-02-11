@@ -2,7 +2,7 @@ import React from 'react'
 import ContainerWrapper from './containerWrapper'
 import Image from 'next/image'
 import LogoImage from '../../public/images/large.png'
-import { Button } from '@/components/ui/button'
+import { Button } from '../../components/ui/button.tsx'
 import ServiceAnimation from './services.animation'
 
 const About = () => {

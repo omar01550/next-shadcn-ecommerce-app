@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainerWrapper from './containerWrapper'
-import { Button } from '@/components/ui/button'
+import { Button } from '../../components/ui/button'
 import HeroAnimation from './hero.animation'
 import './hero.css'
 import Image from 'next/image'
@@ -9,7 +9,7 @@ import HeroBg from '../../public/images/bg.png';
 
 const Hero = async() => {
   return (
-    <section className="bg-hero hero relative ">
+    <section className="bg-hero hero relative select-none">
       <Image src={HeroBg} className='w-full h-full absolute left-0 top-0'/>
          <HeroAnimation>
             <ContainerWrapper className='w-full flex justify-center items-center min-h-96 dark:bg-black dark:text-white'>

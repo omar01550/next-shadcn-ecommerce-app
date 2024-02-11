@@ -35,8 +35,8 @@ const Technologies = async () => {
     <h2 className="text-center text-primary dark:text-white text-4xl capitalize font-semibold" id="our-works">
     Technologies are we use
     </h2>
-
-    <div className="tech w-full my-16 flex justify-around items-center p-5 flex-wrap bg-gray-200 ">
+    
+    <div className="tech w-full my-16 flex justify-around items-center p-5 flex-wrap bg-gray-200 dark:bg-gray-900 ">
        {
          skills
          .map((skill) => {

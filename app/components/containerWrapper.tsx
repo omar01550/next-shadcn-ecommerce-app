@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '@/lib/utils'
+import { cn } from '../../lib/utils.ts'
 const ContainerWrapper = ({children,className}:{childred:React.ReactNode,className:string}) => {
   return (
     <section className={cn('px-3 md:px-9',className)}>

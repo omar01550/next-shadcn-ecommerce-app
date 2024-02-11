@@ -1,7 +1,7 @@
 'use client'
-import { cn } from "@/lib/utils";
+import  {cn} from "../../lib/utils.ts";
 import { createContext, useState } from "react";
-
+import WhatsApp from "../components/whatsApp.jsx";
 export const themeContext = createContext('light');
 
 
@@ -18,7 +18,8 @@ export const ThemeWrapper = ({children}:{children:React.ReactNode}) => {
                  setTheme
             }
          }>
-             <body className={cn(theme,'transition',theme == 'dark'?"bg-black":"bg-white","overflow-x-hidden")}>
+             <body className={cn(theme,'transition duration-500',theme == 'dark'?"bg-black":"bg-white","overflow-x-hidden relative")}>
+             <WhatsApp/>
                  {children}
              </body>
          </Provider>

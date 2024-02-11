@@ -1,5 +1,7 @@
 
 import type { Config } from "tailwindcss"
+import colors, { blue } from 'tailwindcss/colors';
+
 
 
 const config = {
@@ -30,7 +32,8 @@ const config = {
         foreground: "hsl(var(--foreground))",
         
         primary: {
-          DEFAULT: "#3664f4",
+          // DEFAULT: "#3664f4",
+          DEFAULT:"#1e3a8a",  
           
 
           foreground: "hsl(var(--primary-foreground))",

@@ -19,7 +19,7 @@ const Header = () => {
                     src={LogoImage}
                     alt=""
                     />
-                    <h3 className='text-blue-900 capitalize text-3xl md:text-4xl px-2 dark:text-white'>
+                    <h3 className='text-primary capitalize text-3xl md:text-4xl px-2 dark:text-white'>
                         iforward
                     </h3>
                 </Link>

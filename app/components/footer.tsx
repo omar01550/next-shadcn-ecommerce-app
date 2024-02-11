@@ -6,7 +6,7 @@ import { Facebook ,Instagram} from 'lucide-react'
 
 const Footer = () => {  
   return (
-    <footer className="flex justify-center items-center flex-col bg-gradient-to-r from-primary  to-black w-full h-40 text-white text-3xl bg-gra">
+    <footer className="flex justify-center items-center flex-col bg-gradient-to-r from-primary  to-blue-900 w-full h-40 text-white text-3xl bg-gra">
          
          <Link href={"/"} className='flex justify-start items-center font-bold capitalize'>
                     <Image 

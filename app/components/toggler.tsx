@@ -3,7 +3,10 @@ import { Moon, Sun } from 'lucide-react';
 import React, { useContext } from 'react'
 import { themeContext } from '../context/theme';
 
+
 const ThemeToggler = () => {
+  
+  
 const {theme,setTheme} = useContext(themeContext);
 
 

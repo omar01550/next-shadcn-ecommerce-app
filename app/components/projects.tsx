@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../../components/ui/carousel'
 import ContainerWrapper from './containerWrapper'
 import Image from 'next/image';
 import abdaldayem from '../../public/images/projects/4.png'

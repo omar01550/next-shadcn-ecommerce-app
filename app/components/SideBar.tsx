@@ -1,4 +1,4 @@
-import { SheetTrigger,Sheet,SheetClose,SheetContent,SheetHeader,SheetFooter,SheetOverlay,SheetTitle,SheetDescription } from '@/components/ui/sheet'
+import { SheetTrigger,Sheet,SheetClose,SheetContent,SheetHeader,SheetFooter,SheetOverlay,SheetTitle,SheetDescription } from '../../components/ui/sheet.tsx'
 import Link from 'next/link'
 import Image from 'next/image'
 import LogoImage from '../../public/images/large.png'
@@ -36,14 +36,14 @@ const SideBar = () => {
                     </Link>
                   
                   
-                        <Link href="contact" className='hover:text-blue-900'>
+                        <Link href="services" className='hover:text-blue-900'>
                                 <SheetClose>
                                         Services
                                 </SheetClose>
                         </Link>
                   
                   <SheetClose>
-                    <Link href="contact" className='hover:text-blue-900'>
+                    <Link href="/our-works" className='hover:text-blue-900'>
                     <SheetClose>
                                         Our Works
                    </SheetClose>
