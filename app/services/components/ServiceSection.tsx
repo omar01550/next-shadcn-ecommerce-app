@@ -25,6 +25,8 @@ const ServiceSection = ({title,image,description,dir}:IService) => {
          src={image}
          alt='not found'
          className='w-full lg:w-6/12 h-[500px] lg:p-2'
+         loading='lazy'
+         placeholder='blur'
          
         />
 

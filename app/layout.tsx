@@ -7,6 +7,7 @@ import SideBar from './components/SideBar'
 import WhatsApp from './components/whatsApp'
 
 
+
 const Layout = ({ children}) => {
 
 
@@ -16,6 +17,7 @@ const Layout = ({ children}) => {
        
    <ThemeWrapper>
         <Header/> 
+
         
 
 

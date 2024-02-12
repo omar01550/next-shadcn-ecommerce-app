@@ -46,6 +46,8 @@ const Technologies = async () => {
             className='w-20 h-20 m-3 lg:m-0'
             src={skill}
             alt='not found image tech'
+            loading='lazy'
+            placeholder='blur'
            />
             </>
           )

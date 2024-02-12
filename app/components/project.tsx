@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Image from 'next/image'
 import ProjectOne from '../../public/images/projects/ui-ux-1.jpg'
@@ -24,8 +25,10 @@ const Project = ({link,image}) => {
              <Image
               src={image}
               className='w-full md:w-[450px] h-[450px] md:h-[450px]'
-              alt='not found imagecls
-              '
+              alt='not found imagecls'
+              placeholder='blur'
+              loading='lazy'
+              
              />
              </div> 
              )

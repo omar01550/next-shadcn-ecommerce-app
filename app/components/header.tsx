@@ -18,6 +18,8 @@ const Header = () => {
                     className="w-10 h-10 md:w-12  md:h-12 rounded-full"
                     src={LogoImage}
                     alt=""
+                    loading='lazy'
+                    placeholder='blur'
                     />
                     <h3 className='text-primary capitalize text-3xl md:text-4xl px-2 dark:text-white'>
                         iforward
